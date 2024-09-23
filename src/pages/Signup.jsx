@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { FaLock } from "react-icons/fa6";
 import { FaLockOpen } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function Signup() {
   const initalvalue = {
@@ -120,12 +121,12 @@ function Signup() {
           <div class="text-white">
             <p>
               Already Registered?
-              <a
-                href="/login"
+              <Link
+                to="/login"
                 className="ml-2 border-b-[1px] border-white border-solid"
               >
                 Login
-              </a>
+              </Link>
             </p>
           </div>
         </div>
