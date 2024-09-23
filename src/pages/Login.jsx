@@ -101,7 +101,7 @@ function Login() {
             <p>
               Don't have an account?{" "}
               <a
-                href="#"
+                href="/"
                 className="ml-2 border-b-[1px] border-white border-solid"
               >
                 Register

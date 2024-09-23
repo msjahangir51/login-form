@@ -121,7 +121,7 @@ function Signup() {
             <p>
               Already Registered?
               <a
-                href="#"
+                href="/login"
                 className="ml-2 border-b-[1px] border-white border-solid"
               >
                 Login
